@@ -7,7 +7,7 @@
     z-index: 1;
     overflow: hidden;
     visibility: hidden;
-    width: 9em;
+    width: 11em;
     height: 9em;
     font-size: calc(
         40px * var(--slide-scale)
@@ -18,17 +18,15 @@
 
 .badge a {
     position: absolute;
-    right: -50%;
-    bottom: 50%;
-    left: -50%;
+    right: 15%;
+    top: 15%;
+
     visibility: visible;
-    background-color: var(--color-blue);
-    color: white;
+    background-color: transparent;
     text-decoration: none;
     text-align: center;
     line-height: 2;
     transform-origin: 50% 100%;
-    transform: rotate(45deg);
 }
 
 /* Badge List */
