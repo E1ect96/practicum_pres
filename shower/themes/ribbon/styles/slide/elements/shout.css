@@ -47,7 +47,7 @@
 .shower.full .slide.active .shout.grow,
 .shower.full .slide.active .shout.shrink {
     animation-name: shout;
-    animation-duration: 0.4s;
+    animation-duration: 1s;
     animation-timing-function: ease-out;
     animation-fill-mode: forwards;
 }
